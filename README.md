@@ -16,6 +16,9 @@
                 }
         }
 ```
+
+##### pseudocode: Find current year -> Find current Month -> Find First day of current month -> Find First Friday of current month -> Find the monday before the first friday of the month
+
 ###### See detailed commments inside the, [FindFriday.js](./FindFriday.js) file
 
 # Loop Trough year and find first fridays of each month
