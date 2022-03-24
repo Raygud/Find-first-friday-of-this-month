@@ -16,7 +16,7 @@
                 }
         }
 ```
-###### See detailed commments inside the, FindFriday.js file
+###### See detailed commments inside the, [I'm a relative reference to a repository file](../FindFriday.js) file
 
 # Loop Trough year and find first fridays of each month
 
