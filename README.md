@@ -16,6 +16,7 @@
                 }
         }
 ```
+#### See detailed commments inside the, FindFriday.js file
 
 # Loop Trough year and find first fridays of each month
 
