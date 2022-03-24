@@ -43,6 +43,10 @@
 
 ```
 
+##### pseudocode: Find current year -> Find all Months -> Find First day of each month -> Find First Friday of each month -> Find the monday before the first friday of each month
+
+###### See detailed commments inside the, [FirstDayOfMonths.js](./FirstDayOfMonths.js) file
+
 ## Can you find other days?
 
 A: yes you can easiliy modify the script too find any day you like, simply changing the "DateToFind" varible to the day you are looking for.
