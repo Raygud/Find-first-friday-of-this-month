@@ -36,7 +36,7 @@
             let IsItFriday = new Date(y, i, q);  
             if(IsItFriday.toString().substr(0,3) == DateToFind){
                 console.log(IsItFriday)
-                IsItFriday = new Date(y, i, q-5);  
+                IsItFriday = new Date(y, i, q-4);  
                 console.log("\nMonday: " + IsItFriday+"\n\n") 
             }
         }
