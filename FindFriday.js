@@ -1,6 +1,6 @@
     let date = new Date(), y = date.getFullYear(), m = date.getMonth(); // Gives us the current day in (Day Month Date Year Hours Seconds), parameters y for Year and m For Month
     let firstDay = new Date(y, m, 1);  //Finds the first day of the month you are currently in. Increment m paramater too loop trough all first days of the year
-    let lastDay = new Date(y, m + 1, 0); //Finds the first day of the month you are currently in. Increment m paramater too loop trough all first days of the year
+    let lastDay = new Date(y, m + 1, 0); //Finds the last day of the month you are currently in. Increment m paramater too loop trough all first days of the year
     let MonthLength = lastDay.toString().substr(8,2) // Finds the length of the chosen month(29,30,31), used if you want too loop trough entire month
 
         for (let i= 1; i <= 7; i++) { // Normal for loop that increments the value of i for each loop i is set too 1 because januar is == 1 not 0. loop 7 times because the is the max length too friday
